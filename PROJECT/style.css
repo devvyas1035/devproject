@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+header{ 
+    background-color: red;
+    text-align: center;
+    color: red;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+   
+}
+h1,h2{
+    margin: 0;
+    color: blue;
+}
+
+h1{
+    background-color: red;
+}
+label{
+    display: block;
+    color: black    ;
+}
+
+.addfrom{
+    background-color: skyblue;
+    padding: 10px;
+    max-width: 500px;
+    box-shadow: 10px 10px 20px; 
+}
+
+.addinput{
+    margin: 10px 0px;
+    width: 100px;
+}
+
+.inputs{
+    padding: 10px;
+    width: 100px;
+}
+
+input[type='submit']{
+    width: 100px;
+    border: 0;
+    padding: 10;
+    background-color: wheat;
+    color: blue;
+    font: size 16px;
+    font-weight: bold;
+}
+
+input[type='submit']:hover{
+    background-color: black;
+}
+.text-area{
+    resize: none;
+}
+.text-area:focus{
+    border: 0;
+    outline: 0;
+}
+.addinput label{
+    margin:4px 0px;
+}
+.mainback{
+    background-color: blue;      
+    padding: 20px;
+    display: flex;
+    background-image: url(https://marketplace.canva.com/EAF740kG-Qk/1/0/450w/canva-blue-gold-luxury-elegant-background-instagram-story-5TgGUdeWjHw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+}       
