@@ -1,12 +1,12 @@
 *{
     box-sizing: border-box;
     font-family: "Roboto",sans-serif;
+    color: black;
 }
 
 header{ 
-    background-color: red;
     text-align: center;
-    color: red;
+    color: black;
 }
 .main{
     display: flex;
@@ -16,31 +16,51 @@ header{
 h1,h2{
     margin: 0;
     color: blue;
+    background-color: wheat;
 }
 
+.main-add{
+    background-color: blue;
+    padding: 20px;
+}
+
+.main-add h2{
+    margin: 10px 10px;
+}
+.main-edit h2{
+    margin: 10px 10px;
+}
+.student-table{
+    margin: 10px 0px;
+    padding: 10px;
+}
 h1{
-    background-color: red;
+    background-color: blue;
+    padding: 20px;
+    border-bottom: 5px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
 }
 label{
     display: block;
-    color: black    ;
+    color: wheat   ;
 }
 
 .addfrom{
-    background-color: skyblue;
+    background-color: red;
     padding: 10px;
     max-width: 500px;
-    box-shadow: 10px 10px 20px; 
+    box-shadow: 10px 10px 20px red;  
 }
 
 .addinput{
     margin: 10px 0px;
-    width: 100px;
+    width: 100%;
 }
 
 .inputs{
     padding: 10px;
-    width: 100px;
+    width: 100%;
 }
 
 input[type='submit']{
@@ -48,8 +68,8 @@ input[type='submit']{
     border: 0;
     padding: 10;
     background-color: wheat;
-    color: blue;
-    font: size 16px;
+    color: black;
+    font-size : 16px;
     font-weight: bold;
 }
 
@@ -67,10 +87,9 @@ input[type='submit']:hover{
     margin:4px 0px;
 }
 .mainback{
-    background-color: blue;      
-    padding: 20px;
+    background-color: skyblue;      
+    padding: 90px;
     display: flex;
-    background-image: url(https://marketplace.canva.com/EAF740kG-Qk/1/0/450w/canva-blue-gold-luxury-elegant-background-instagram-story-5TgGUdeWjHw.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-around;
